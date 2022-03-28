@@ -9,7 +9,10 @@ public class UIManager : MonoBehaviour
     private Text textbox;
 
     [SerializeField]
-    GameObject bowl;
+    public Text typeText;
+
+    [SerializeField]
+    public GameObject bowl;
 
     public int step = 0;
     public int time = 0;
@@ -31,7 +34,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (step){
+        
+
+
+        switch (step){//changes instructions and changes state
             case 0:
                 textbox.text = "Mix warm water, yeast, and sugar in mixing bowl";
                 if(bowlWater && bowlYeast && bowlSugar)
