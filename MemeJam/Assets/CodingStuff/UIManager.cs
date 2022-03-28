@@ -8,8 +8,20 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text textbox;
 
-    int step = 0;
-    int time = 0;
+    [SerializeField]
+    GameObject bowl;
+
+    public int step = 0;
+    public int time = 0;
+    //step 0
+    public bool bowlWater = false;
+    public bool bowlYeast = false;
+    public bool bowlSugar = false;
+    //step 1
+    public bool bowlOil = false;
+    public bool bowlSalt = false;
+    public bool bowlFlour = false;
+    public bool mixed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,31 +31,33 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time++;
-        if(time >= 200){
-            time = 0;
-            step++;
-        }
         switch (step){
             case 0:
-                textbox.text = "Mix warm water, yeast, and granulated sugar in mixing bowl";
+                textbox.text = "Mix warm water, yeast, and sugar in mixing bowl";
+                if(bowlWater && bowlYeast && bowlSugar)
+                    step = 1;
                 break;
             case 1:
-                textbox.text = "Add sugar, oil, salt, and flour and mix";
+                textbox.text = "Add oil, salt, and flour";
+                if(bowlFlour && bowlOil && bowlSalt)
+                    step = 2;
                 break;
-            case 2:
-                textbox.text = "Knead the dough";
+            case 2: 
+                textbox.text = "Mix!";
                 break;
             case 3:
-                textbox.text = "Put the dough in an oiled bowl and cover with plastic wrap";
+                textbox.text = "Knead the dough";
                 break;
             case 4:
-                textbox.text = "Allow time to rise";
+                textbox.text = "Put the dough in an oiled bowl and cover with plastic wrap";
                 break;
             case 5:
-                textbox.text = "Punch dough to shape it";
+                textbox.text = "Allow time to rise";
                 break;
             case 6:
+                textbox.text = "Punch dough to shape it";
+                break;
+            case 7:
                 textbox.text = "Bake for 30 minutes";
                 break;
         }
