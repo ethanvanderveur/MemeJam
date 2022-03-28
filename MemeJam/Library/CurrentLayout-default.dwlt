@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 17
+  controlID: 84
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,10 +397,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
-      m_SelectedIDs: 70c9ffff
-      m_LastClickedID: -13968
-      m_ExpandedIDs: d6cbffff72fbffffe63d0000
+      scrollPos: {x: 0, y: 70}
+      m_SelectedIDs: 12e3ffff
+      m_LastClickedID: -7406
+      m_ExpandedIDs: 20cfffff1ef5ffff72fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -54.11532, y: -33.00809, z: 39.160145}
+    m_Target: {x: 0.47436845, y: 2.5508435, z: 2.5105324}
     speed: 2
-    m_Value: {x: -54.11532, y: -33.00809, z: 39.160145}
+    m_Value: {x: 0.47436845, y: 2.5508435, z: 2.5105324}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,13 +509,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2053151, y: -0.4514492, z: 0.10722846, w: 0.8619271}
+    m_Target: {x: 0.10556791, y: 0.47308132, z: -0.058422524, w: 0.87306577}
     speed: 2
-    m_Value: {x: 0.20511538, y: -0.45265624, z: 0.10751604, w: 0.86108667}
+    m_Value: {x: 0.10562334, y: 0.47162792, z: -0.058246415, w: 0.8735091}
   m_Size:
-    m_Target: 38.912643
+    m_Target: 0.4556926
     speed: 2
-    m_Value: 38.912643
+    m_Value: 0.4556953
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -639,22 +639,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Kenney Food
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Kenney Food
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jonah\Documents\GitHub\MemeJam\MemeJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e43f0000
-    m_LastClickedID: 16356
-    m_ExpandedIDs: 00000000c83f0000cc3f000000ca9a3b
+    m_SelectedIDs: b2400000
+    m_LastClickedID: 16562
+    m_ExpandedIDs: 00000000aa400000ae40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,7 +682,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c83f0000
+    m_ExpandedIDs: 00000000aa400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,7 +734,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 764}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
