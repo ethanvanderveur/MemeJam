@@ -371,6 +371,7 @@ MonoBehaviour:
   - {fileID: 651928149}
   - {fileID: 247052209}
   - {fileID: 1823950621}
+  itemType: 
 --- !u!136 &246926436
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1014,6 +1015,7 @@ MonoBehaviour:
   - {fileID: 651928149}
   - {fileID: 247052209}
   - {fileID: 1823950621}
+  itemType: 
 --- !u!136 &1180693689
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1319,6 +1321,7 @@ MonoBehaviour:
   - {fileID: 651928149}
   - {fileID: 247052209}
   - {fileID: 1823950621}
+  itemType: 
 --- !u!136 &1733667715
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1789,6 +1792,7 @@ MonoBehaviour:
   - {fileID: 651928149}
   - {fileID: 247052209}
   - {fileID: 1823950621}
+  itemType: 
 --- !u!136 &2051112166
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1909,6 +1913,7 @@ MonoBehaviour:
   - {fileID: 651928149}
   - {fileID: 247052209}
   - {fileID: 1823950621}
+  itemType: 
 --- !u!136 &2102951889
 CapsuleCollider:
   m_ObjectHideFlags: 0

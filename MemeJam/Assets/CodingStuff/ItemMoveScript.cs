@@ -6,6 +6,8 @@ public class ItemMoveScript : MonoBehaviour
 {
     [SerializeField]
     private List<Transform> positions;
+    [SerializeField]
+    public string itemType;
 
     private List<Transform> openPositions;
 

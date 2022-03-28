@@ -28,6 +28,7 @@ public class PickupScript : MonoBehaviour
     {
         rb.isKinematic = false;
         full = false;
+        transform.rotation = Quaternion.identity;
         GetComponent<Transform>().position = getClosestOpenPosition(GetComponent<ItemMoveScript>().getOpenPositions()).position;
         GetComponent<Transform>().parent = getClosestOpenPosition(GetComponent<ItemMoveScript>().getOpenPositions()).transform;
 
