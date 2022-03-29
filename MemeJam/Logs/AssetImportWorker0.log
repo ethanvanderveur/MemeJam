@@ -1,10 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-<<<<<<< HEAD
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16190 MB
-=======
 OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16239 MB
->>>>>>> level_design_progress
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,37 +11,15 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< HEAD
-C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-63208
-Successfully changed project path to: C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam
-C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam/Assets
-GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
-    Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7141
-=======
 C:/Users/jonah/Documents/GitHub/MemeJam/MemeJam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53994
+56812
 Successfully changed project path to: C:/Users/jonah/Documents/GitHub/MemeJam/MemeJam
 C:/Users/jonah/Documents/GitHub/MemeJam/MemeJam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -57,384 +31,93 @@ Direct3D:
     Vendor:   
     VRAM:     4021 MB
     Driver:   30.0.14.9649
->>>>>>> level_design_progress
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<< HEAD
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002641 seconds.
+Registered in 0.003258 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.557 seconds
+- Completed reload, in  0.670 seconds
 Domain Reload Profiling:
-	ReloadAssembly (558ms)
-		BeginReloadAssembly (69ms)
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002853 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.709 seconds
-Domain Reload Profiling:
-	ReloadAssembly (709ms)
-		BeginReloadAssembly (74ms)
->>>>>>> level_design_progress
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-<<<<<<< HEAD
-		EndReloadAssembly (415ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (144ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-=======
-		EndReloadAssembly (515ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (165ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
+				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
->>>>>>> level_design_progress
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
-Registered in 0.003926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
-Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (734ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (272ms)
-=======
-Registered in 0.003852 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1164ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (304ms)
->>>>>>> level_design_progress
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-<<<<<<< HEAD
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1952.
-Total: 2.232500 ms (FindLiveObjects: 0.106400 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.027600 ms  DeleteObjects: 0.053700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/CodingStuff/UI
-  artifactKey: Guid(6c8aaf66b2548144f949b4511aea42ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI using Guid(6c8aaf66b2548144f949b4511aea42ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599233f84ec7039aa621b322a60afcce') in 0.005536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/CodingStuff/UI/notepad.png
-  artifactKey: Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/notepad.png using Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90e909365e6adad27a624d408aa5761') in 0.035187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.243640 seconds.
-  path: Assets/CodingStuff/UI/Fonts
-  artifactKey: Guid(9c69cf3eb04124a48ad7eeea8bd89938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts using Guid(9c69cf3eb04124a48ad7eeea8bd89938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e9692878b2d3544a0222e12874d090') in 0.007233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.070340 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf
-  artifactKey: Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf using Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20db4116fe384fab590adb646cf8e2a') in 0.005558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High.ttf
-  artifactKey: Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High.ttf using Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7767141fc97eee5cb094462e81159f88') in 0.003148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf
-  artifactKey: Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf using Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef31dc4a5da59d5c64f75d970ca3fbd') in 0.003696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf
-  artifactKey: Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf using Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a1ad407e53d7a229339f8d7a9f4f78') in 0.003440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf
-  artifactKey: Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf using Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f32534ccf22ec2ac86de5a3094ff1f') in 0.003985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf
-  artifactKey: Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf using Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac35218da5ba42841f4081648f1a6c2') in 0.003686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf
-  artifactKey: Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf using Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1632113b80333d4ddeb95e577a88e199') in 0.003363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf
-  artifactKey: Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf using Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21a42ca7e07ec86a20b1e6e15f634a8') in 0.003453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf
-  artifactKey: Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf using Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d071d14e764fb0f27ac35f501c43f') in 0.003379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future.ttf
-  artifactKey: Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future.ttf using Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c7da6b568dc6d0eff1a2e7dfed85b9') in 0.003778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf
-  artifactKey: Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf using Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9e0eb8650dbd30bf314c35f7f5017') in 0.003698 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003717 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (255ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.1 MB.
-System memory in use after: 69.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 2.273400 ms (FindLiveObjects: 0.108200 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.106700 ms  DeleteObjects: 0.017300 ms)
-=======
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.8 MB.
-System memory in use after: 68.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 3.126100 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.039800 ms MarkObjects: 2.881600 ms  DeleteObjects: 0.086400 ms)
->>>>>>> level_design_progress
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-<<<<<<< HEAD
-  Time since last request: 77.617136 seconds.
-  path: Assets/CodingStuff/UI/notepad.png
-  artifactKey: Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/notepad.png using Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629d194113291cfa85530fd31ec6f1dc') in 0.042784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.264038 seconds.
-  path: Assets/CodingStuff/UI/notepad.png
-  artifactKey: Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/notepad.png using Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf8b41b2191d85487c180500a481918') in 0.047812 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004107 seconds.
+Registered in 0.003985 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  1.254 seconds
 Domain Reload Profiling:
-	ReloadAssembly (890ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (717ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (256ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (457ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.3 MB.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 2.318600 ms (FindLiveObjects: 0.106300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.155100 ms  DeleteObjects: 0.014900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 2.803200 ms (FindLiveObjects: 0.117100 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.576300 ms  DeleteObjects: 0.061400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -449,103 +132,1152 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.280470 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High.ttf
-  artifactKey: Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High.ttf using Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408528ae3af0c52e952286c0f8b5028') in 0.068812 seconds 
+  path: Assets/Kenney Food/wholeHam.fbx
+  artifactKey: Guid(346574f36eb1eab4c8ac914a7a53d019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/wholeHam.fbx using Guid(346574f36eb1eab4c8ac914a7a53d019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7052500226702e993aa6a5f4b30a434') in 0.202075 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf
-  artifactKey: Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf using Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ed936b9a2372d69f55c795f7437a1') in 0.015236 seconds 
+  Time since last request: 0.000331 seconds.
+  path: Assets/Kenney Food/whisk.fbx
+  artifactKey: Guid(ddad24dc55698244697a00290ef420bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/whisk.fbx using Guid(ddad24dc55698244697a00290ef420bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d3d09e7947c4cd0d604170bf9d3062') in 0.040185 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf
-  artifactKey: Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf using Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774ff99db096416e094dc74366725b25') in 0.018796 seconds 
+  Time since last request: 0.000329 seconds.
+  path: Assets/Kenney Food/sodaCan.fbx
+  artifactKey: Guid(a9584402b592d9f458809ea3930c7cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sodaCan.fbx using Guid(a9584402b592d9f458809ea3930c7cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf65b3c8a28b8556f4512a203432709') in 0.043862 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf
-  artifactKey: Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf using Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c55e224f33544f17ac3ff009ab8d8ff') in 0.020633 seconds 
+  Time since last request: 0.000327 seconds.
+  path: Assets/Kenney Food/utensilSpoon.fbx
+  artifactKey: Guid(57b0ec8f2d7ffd246a8a3ce22013c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/utensilSpoon.fbx using Guid(57b0ec8f2d7ffd246a8a3ce22013c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd280acd799946df8ab92ce0991b38d63') in 0.026290 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf
-  artifactKey: Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf using Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698eb94ab2e384651939d1f00331d006') in 0.019338 seconds 
+  Time since last request: 0.000320 seconds.
+  path: Assets/Kenney Food/soy.fbx
+  artifactKey: Guid(ff54666eb0c57e947ad2fc1dda74c56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/soy.fbx using Guid(ff54666eb0c57e947ad2fc1dda74c56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd5b4c609ca5f58ad4b715e528cfcf') in 0.031561 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf
-  artifactKey: Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf using Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e196c6f8827d1cea940643c8fd88850') in 0.018059 seconds 
+  Time since last request: 0.000283 seconds.
+  path: Assets/Kenney Food/sushiEgg.fbx
+  artifactKey: Guid(8679a7729b9c26048956504d2917973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sushiEgg.fbx using Guid(8679a7729b9c26048956504d2917973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572ec754c6c9701fe05ac5fcfb6fbcc0') in 0.044126 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf
-  artifactKey: Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf using Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0558599ba9ec9ee94c386cb23a46e84') in 0.019554 seconds 
+  Time since last request: 0.000297 seconds.
+  path: Assets/Kenney Food/wineWhite.fbx
+  artifactKey: Guid(8555493e75dad344ba1c9773d0713599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/wineWhite.fbx using Guid(8555493e75dad344ba1c9773d0713599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b479583e568b10f7a859ad00e73fd08') in 0.036854 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf
-  artifactKey: Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf using Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60d47007dac053aa1a5081259abd7a') in 0.022050 seconds 
+  Time since last request: 0.000358 seconds.
+  path: Assets/Kenney Food/whippedCream.fbx
+  artifactKey: Guid(5424e9f0c8ff4104a80967d99c692435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/whippedCream.fbx using Guid(5424e9f0c8ff4104a80967d99c692435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9e21e45654103aa130c81eb8c4474') in 0.028945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf
-  artifactKey: Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf using Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acba12ed12f32d19a070a5973575ea0') in 0.019091 seconds 
+  Time since last request: 0.000441 seconds.
+  path: Assets/Kenney Food/styrofoamDinner.fbx
+  artifactKey: Guid(7464db70e1b36df4484c49683723b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/styrofoamDinner.fbx using Guid(7464db70e1b36df4484c49683723b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b00e9dd34bed1f82452fb91ed8325') in 0.054192 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future.ttf
-  artifactKey: Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future.ttf using Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728a19117b5d872981659b0e2e71f57f') in 0.018360 seconds 
+  Time since last request: 0.000339 seconds.
+  path: Assets/Kenney Food/tomatoSlice.fbx
+  artifactKey: Guid(55f75cf56a18eaf4199abba7a52742dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/tomatoSlice.fbx using Guid(55f75cf56a18eaf4199abba7a52742dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef70703db5c3782bca4340c52713ba7') in 0.031992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf
-  artifactKey: Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf using Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aaf9df9dccd93e557f29da1981b397') in 0.019971 seconds 
-=======
-  path: Assets/Kenney Food/bottleOil 1.fbx
-  artifactKey: Guid(1fd041a4e09f8004aaf90e36288b1b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenney Food/bottleOil 1.fbx using Guid(1fd041a4e09f8004aaf90e36288b1b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cce8d82dd83949768aa927b8b34342') in 0.253637 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/Kenney Food/tajineLid.fbx
+  artifactKey: Guid(c2921b9af481e7047815cba636ea77aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/tajineLid.fbx using Guid(c2921b9af481e7047815cba636ea77aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb96f478d4419db42e072445771c0b1') in 0.043990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.567508 seconds.
-  path: Assets/Kenney Food/bottleWater.fbx
-  artifactKey: Guid(1fd041a4e09f8004aaf90e36288b1b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenney Food/bottleWater.fbx using Guid(1fd041a4e09f8004aaf90e36288b1b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1de41e912f368bafa6116e89673cde4') in 0.046728 seconds 
+  Time since last request: 0.000291 seconds.
+  path: Assets/Kenney Food/utensilKnife.fbx
+  artifactKey: Guid(a51478752f85e1c468e6164d27a8d054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/utensilKnife.fbx using Guid(a51478752f85e1c468e6164d27a8d054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3a0708fa0a4aae3e735e4fe3e7c0b4') in 0.025069 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.425094 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(faf641695dc69e94b82ebb63a33be5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(faf641695dc69e94b82ebb63a33be5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d39630dd6f33a84114ef05e362e0e2d') in 0.046452 seconds 
+  Time since last request: 0.000346 seconds.
+  path: Assets/Kenney Food/wholerHam.fbx
+  artifactKey: Guid(a8ca4c17c0bd58c44bba7e1a3e9ead57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/wholerHam.fbx using Guid(a8ca4c17c0bd58c44bba7e1a3e9ead57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a59b17989601b73ef40aea161d023') in 0.032348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.217911 seconds.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Kenney Food/taco.fbx
+  artifactKey: Guid(4d2d6cecf3cf2304fabb0e2f90d1c034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/taco.fbx using Guid(4d2d6cecf3cf2304fabb0e2f90d1c034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7a8e364143c29006836f4d7ccc6bf') in 0.048927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Food/tajine.fbx
+  artifactKey: Guid(49270b8cec18aaf4791b10b61bfa40cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/tajine.fbx using Guid(49270b8cec18aaf4791b10b61bfa40cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9479845565ec10abcd92dadf9a8478') in 0.042851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Kenney Food/sub.fbx
+  artifactKey: Guid(7eeab853f947d5041b8e5168d292a608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sub.fbx using Guid(7eeab853f947d5041b8e5168d292a608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459598c1d78a4ff451dcf3ca8d25eefb') in 0.125157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Kenney Food/sodaCanCrushed.fbx
+  artifactKey: Guid(4a71551effaa7b546ac33efd6fcaba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sodaCanCrushed.fbx using Guid(4a71551effaa7b546ac33efd6fcaba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c28da9f13d04e65bc0dd043e6c55f5') in 0.056896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Kenney Food/sodaBottle.fbx
+  artifactKey: Guid(a9c64fea58d2fca4291252545d36cefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sodaBottle.fbx using Guid(a9c64fea58d2fca4291252545d36cefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de67281c221a1de5491b28939602607') in 0.038366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Kenney Food/sushiSalmon.fbx
+  artifactKey: Guid(be31a080ab5d17940bbad5ff1ade77ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sushiSalmon.fbx using Guid(be31a080ab5d17940bbad5ff1ade77ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b9f71a9fe8afd87ded28b4624dcd40') in 0.051522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Kenney Food/utensilFork.fbx
+  artifactKey: Guid(ac119297ca2a1084aa61ea326b0a2bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/utensilFork.fbx using Guid(ac119297ca2a1084aa61ea326b0a2bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0812f149819bd473e5fc274c48c42a76') in 0.024903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Kenney Food/strawberry.fbx
+  artifactKey: Guid(d68e300169ee8924ab8cf3a2d1cdf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/strawberry.fbx using Guid(d68e300169ee8924ab8cf3a2d1cdf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1814decb978ab2b99b187c4bd21bfef3') in 0.035254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Kenney Food/wineRed.fbx
+  artifactKey: Guid(a0bdd3a6615612449bcaaeb0f4bd4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/wineRed.fbx using Guid(a0bdd3a6615612449bcaaeb0f4bd4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57306c908d7d1643125a6566c39475b') in 0.039139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Kenney Food/steamer.fbx
+  artifactKey: Guid(c9c11ebe094379d41b85a60ca4fda4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/steamer.fbx using Guid(c9c11ebe094379d41b85a60ca4fda4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c8c0ecb9ba649032101c3dec139b7b') in 0.081514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Kenney Food/turkey.fbx
+  artifactKey: Guid(6f53d8e5579cc5743abf026eff2fa1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/turkey.fbx using Guid(6f53d8e5579cc5743abf026eff2fa1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c7f68480c4682accfc6e589ffd3c5') in 0.059844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Kenney Food/sodaGlass.fbx
+  artifactKey: Guid(1126d552c8c05b44ca18f12fd93c251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sodaGlass.fbx using Guid(1126d552c8c05b44ca18f12fd93c251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c078cb8077bb5103e81ba2352761a5') in 0.067833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Kenney Food/waffle.fbx
+  artifactKey: Guid(a4dbab7b69a6f094194829125254ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/waffle.fbx using Guid(a4dbab7b69a6f094194829125254ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7e5714a28203588c9eed8dc380b7f0') in 0.024631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Kenney Food/styrofoam.fbx
+  artifactKey: Guid(27182b1a098e0be49905abf5eadbdf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/styrofoam.fbx using Guid(27182b1a098e0be49905abf5eadbdf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74faaeecf6edf91c7a8629932d50712') in 0.038556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Kenney Food/tomato.fbx
+  artifactKey: Guid(7eff034313dbfaf4eb8f4f508e0ad5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/tomato.fbx using Guid(7eff034313dbfaf4eb8f4f508e0ad5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ced2c439ec8bde5e86beb79d1041983') in 0.027508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Kenney Food/watermelon.fbx
+  artifactKey: Guid(f1cc356ffb33d4e47871bf2cd2b25491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/watermelon.fbx using Guid(f1cc356ffb33d4e47871bf2cd2b25491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542dac29742627b22759ee5573c2bb9b') in 0.115136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Kenney Food/sundae.fbx
+  artifactKey: Guid(a4dc8f8d76d0bd84c8a9b6ec9babb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/sundae.fbx using Guid(a4dc8f8d76d0bd84c8a9b6ec9babb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf8c65a181c9ead7c8ad7bb28ab2fcc') in 0.067614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.727797 seconds.
+  path: Assets/Prefabs/cabinet.prefab
+  artifactKey: Guid(fa012c7564cf1ef43909fe7e93966a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cabinet.prefab using Guid(fa012c7564cf1ef43909fe7e93966a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3c7e34ce43f08e54eb607697015d94') in 0.021497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/oven.prefab
+  artifactKey: Guid(a331a8b2daa85f047b2f3827aa185df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/oven.prefab using Guid(a331a8b2daa85f047b2f3827aa185df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9e35a219b84986eb0efca73354d1bc') in 0.019225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Prefabs/countertop.prefab
+  artifactKey: Guid(b780f34058fc9b44f81d6d86908e6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/countertop.prefab using Guid(b780f34058fc9b44f81d6d86908e6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd936be66de86244e720a2f64705b6c94') in 0.018110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Prefabs/fridge.prefab
+  artifactKey: Guid(a7f6d79013ab15d459db52ce71355287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fridge.prefab using Guid(a7f6d79013ab15d459db52ce71355287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886cecbc1afdc15d0d42799bd7b20770') in 0.014780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.946661 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(e8aa5e8d238eeb74a8e85c8ec7373fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e8aa5e8d238eeb74a8e85c8ec7373fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adbac24c812f71634115ac56c7acfcb') in 0.003021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.182144 seconds.
+  path: Assets/Prefabs/timer.prefab
+  artifactKey: Guid(8993732939fe2f848b48f12633c17f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/timer.prefab using Guid(8993732939fe2f848b48f12633c17f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2dd8700585abda2d1527a2354cf69f') in 0.005843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.585220 seconds.
+  path: Assets/Kenney Food/apple.fbx
+  artifactKey: Guid(b55fe6e190247ec409dcda7e97fdce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/apple.fbx using Guid(b55fe6e190247ec409dcda7e97fdce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a70b0339ddc150f1a791161b4012d98') in 0.038147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Kenney Food/can.fbx
+  artifactKey: Guid(7a027ce64df63834d927e2db0e4d4512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/can.fbx using Guid(7a027ce64df63834d927e2db0e4d4512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bc576797c584b45362e0ed75c76e07') in 0.036002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Kenney Food/avocadoHalf.fbx
+  artifactKey: Guid(5febaaf21c8e73a4eaa39c2c88b91c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/avocadoHalf.fbx using Guid(5febaaf21c8e73a4eaa39c2c88b91c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee6587c4db8916df32755856661a399') in 0.046634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Kenney Food/bread.fbx
+  artifactKey: Guid(dfbf60ff824b6be4694664604f360979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bread.fbx using Guid(dfbf60ff824b6be4694664604f360979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a77d557bad2850ffad24b9ad0f78324') in 0.031716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Kenney Food/bottleOil.fbx
+  artifactKey: Guid(441f1b8f7a6e56c4887609a5e3f04008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bottleOil.fbx using Guid(441f1b8f7a6e56c4887609a5e3f04008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10f8a093c3109c61648cf1fa8b7138e') in 0.034716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Kenney Food/bottleKetchup.fbx
+  artifactKey: Guid(56d4288c0bb3fc345aeb9de191b62ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bottleKetchup.fbx using Guid(56d4288c0bb3fc345aeb9de191b62ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ad18a6d60e2e89cfc018a7ba63e59e') in 0.028686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kenney Food/appleHalf.fbx
+  artifactKey: Guid(4cb2fc920dceee440a6fc77e0e9a9dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/appleHalf.fbx using Guid(4cb2fc920dceee440a6fc77e0e9a9dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0aae36ca9543db2df54dbddf7e2c55') in 0.046872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Kenney Food/bagFlat.fbx
+  artifactKey: Guid(5b4cd106a76c16343a4e16074f4e463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bagFlat.fbx using Guid(5b4cd106a76c16343a4e16074f4e463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e0544bc7b7e1d9591872022dd33013') in 0.024983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Kenney Food/burgerCheese.fbx
+  artifactKey: Guid(acf3994653927f04d90c3b4f9287cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/burgerCheese.fbx using Guid(acf3994653927f04d90c3b4f9287cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007dff7dd2ddff88396813e743911984') in 0.068605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kenney Food/candyBarWrapper.fbx
+  artifactKey: Guid(fc0ca93811e7f034383c117d029ec58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/candyBarWrapper.fbx using Guid(fc0ca93811e7f034383c117d029ec58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55acae39367bb21f23acdf3752ea3685') in 0.035869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Kenney Food/canOpen.fbx
+  artifactKey: Guid(8afe18cd99bd57d45ba50f28261f479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/canOpen.fbx using Guid(8afe18cd99bd57d45ba50f28261f479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74b66fa222f08fe1d3b8032ed3184f2') in 0.051493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Kenney Food/cake.fbx
+  artifactKey: Guid(03ede09a54e3fca4695e157740ad668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cake.fbx using Guid(03ede09a54e3fca4695e157740ad668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065e824949a2564bbcfa9c4d963db14e') in 0.119669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Kenney Food/baconRaw.fbx
+  artifactKey: Guid(402e27961ea2f0546aea3e65899cf4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/baconRaw.fbx using Guid(402e27961ea2f0546aea3e65899cf4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d8b5e4b73dae12ef5dd08464501c7') in 0.038027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Kenney Food/cabbage.fbx
+  artifactKey: Guid(b4cce04bb2716324db8186eec195c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cabbage.fbx using Guid(b4cce04bb2716324db8186eec195c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f17351d4539174a21bb232e6ce8e48e') in 0.033127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Kenney Food/bowlSoup.fbx
+  artifactKey: Guid(55dc02e76965c7a44ad2480ab4fa4ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bowlSoup.fbx using Guid(55dc02e76965c7a44ad2480ab4fa4ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f81dcbb36e5de3e914c6cf45113ff7e') in 0.051443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Kenney Food/burger.fbx
+  artifactKey: Guid(8f6d0ae17b97b86458635c4afd6e7b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/burger.fbx using Guid(8f6d0ae17b97b86458635c4afd6e7b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ff1826952beac522bc650c3b739f19') in 0.118808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Food/cakeSlicer.fbx
+  artifactKey: Guid(cb5e406da3768cd41b18e65d919d5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cakeSlicer.fbx using Guid(cb5e406da3768cd41b18e65d919d5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e2d1c846ae669fe39aff5581c17ed0') in 0.032946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Kenney Food/cauliflower.fbx
+  artifactKey: Guid(e23bd22449b9adb488b5ab3dd94e2b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cauliflower.fbx using Guid(e23bd22449b9adb488b5ab3dd94e2b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73550a2f77f6860b524c6156df7dfcb') in 0.033163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Kenney Food/canSmall.fbx
+  artifactKey: Guid(74133b11cf70d9c40b190d4ff00d7155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/canSmall.fbx using Guid(74133b11cf70d9c40b190d4ff00d7155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e84377e67af8a70cffc0ddbef39b9f') in 0.042109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Kenney Food/beet.fbx
+  artifactKey: Guid(a55f48de4c677a64f94d03b078927c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/beet.fbx using Guid(a55f48de4c677a64f94d03b078927c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b5236a72f4bfa134dc92b6e852f774') in 0.039927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Kenney Food/carrot.fbx
+  artifactKey: Guid(c53a8b548fc134f4b944bf72552b0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/carrot.fbx using Guid(c53a8b548fc134f4b944bf72552b0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd56ab20882e5d2876df43c405d8c587') in 0.034444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Kenney Food/burgerCheeseDouble.fbx
+  artifactKey: Guid(0ae15b5f5d7428243a5a61dfd455e201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/burgerCheeseDouble.fbx using Guid(0ae15b5f5d7428243a5a61dfd455e201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edfd6de97d4aacb5be9c6e5834dd34e') in 0.099355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Kenney Food/carton.fbx
+  artifactKey: Guid(621581d270e878f4183508e878e0bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/carton.fbx using Guid(621581d270e878f4183508e878e0bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2bfe0104414e207e703321cff2d47e') in 0.037033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Kenney Food/broccoli.fbx
+  artifactKey: Guid(ec72e12f1c863814ba81517c9d968576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/broccoli.fbx using Guid(ec72e12f1c863814ba81517c9d968576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18abdf0fdd0db0643bf279a031fca8f') in 0.039451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Kenney Food/cherries.fbx
+  artifactKey: Guid(8223e8fbfa08ec04f9838d501d833da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cherries.fbx using Guid(8223e8fbfa08ec04f9838d501d833da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a3dcfea51d26f80c9d54e22e636472') in 0.039593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Kenney Food/cookie.fbx
+  artifactKey: Guid(2652c703cf780cf4794df5f0dc9b7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookie.fbx using Guid(2652c703cf780cf4794df5f0dc9b7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c739a275e1200d51eded23fc5b2fbacd') in 0.031681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Kenney Food/cookieChocolate.fbx
+  artifactKey: Guid(1e7f6e8e0d605ba409d29ac88ce80289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookieChocolate.fbx using Guid(1e7f6e8e0d605ba409d29ac88ce80289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ce4209d2d97d202174d11eee9f627c') in 0.030911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Kenney Food/cup.fbx
+  artifactKey: Guid(9141c381f5851bb468aadbc9cdc84ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cup.fbx using Guid(9141c381f5851bb468aadbc9cdc84ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1263c8fd7efb51d5284021960283c10') in 0.024992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Kenney Food/donutChocolate.fbx
+  artifactKey: Guid(c4094489c3984ba4f9e87a207d9e1f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/donutChocolate.fbx using Guid(c4094489c3984ba4f9e87a207d9e1f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d48a19374be661341cd62fa8b7d73e9') in 0.033536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Kenney Food/cookingSpatula.fbx
+  artifactKey: Guid(9f2e9922bd321204290597b660b73b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookingSpatula.fbx using Guid(9f2e9922bd321204290597b660b73b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0741780b18fd2d5ba42e7caa47c08817') in 0.034945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Kenney Food/chopstick.fbx
+  artifactKey: Guid(8cf8e803f2efa58488010fa881707519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/chopstick.fbx using Guid(8cf8e803f2efa58488010fa881707519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445facad57c0d48d904ea13f8fbffa16') in 0.026638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Kenney Food/eggHalf.fbx
+  artifactKey: Guid(ad450ecc287613e4b95b8a69a16e50fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/eggHalf.fbx using Guid(ad450ecc287613e4b95b8a69a16e50fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64bf6b8e7a68819b83c236b2246a2e0') in 0.036725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Kenney Food/coconutHalf.fbx
+  artifactKey: Guid(e8208e99861f6664b84ea14fd56d7038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/coconutHalf.fbx using Guid(e8208e99861f6664b84ea14fd56d7038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622607b98b766046aa48db6ed13e1197') in 0.032421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Kenney Food/cupThea.fbx
+  artifactKey: Guid(08a523a0f26b54b4f9ab0a0a34cd4219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cupThea.fbx using Guid(08a523a0f26b54b4f9ab0a0a34cd4219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c2695d3d7362cb332904ec0c1a32bb') in 0.051823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kenney Food/chocolate.fbx
+  artifactKey: Guid(5aa37a8a43ae13f468ef66dbabcbf344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/chocolate.fbx using Guid(5aa37a8a43ae13f468ef66dbabcbf344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8fcdec989daff0a6f70f23573efa28') in 0.028947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Kenney Food/bowl.fbx
+  artifactKey: Guid(e063e636a60de6c449c53007cc130e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bowl.fbx using Guid(e063e636a60de6c449c53007cc130e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70a72e3d7df7fbc692bf9c0e72aeff3') in 0.026386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Kenney Food/banana.fbx
+  artifactKey: Guid(5be59a8fb15691540af139d340d7040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/banana.fbx using Guid(5be59a8fb15691540af139d340d7040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfead0ac0ab27a6a8b789b089436c6d') in 0.032949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Kenney Food/cupTea.fbx
+  artifactKey: Guid(2c0cff0645b5d274ba75f092cee88591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cupTea.fbx using Guid(2c0cff0645b5d274ba75f092cee88591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965c308a38fcb788574870615b2445bd') in 0.041082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Kenney Food/bacon.fbx
+  artifactKey: Guid(630e21bee9291074283fc64cba736d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bacon.fbx using Guid(630e21bee9291074283fc64cba736d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9196e58cd63bb65d5f2725c8f4389795') in 0.032121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Kenney Food/bottleMusterd.fbx
+  artifactKey: Guid(739e26c5849eb3447ac0d76caae2b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bottleMusterd.fbx using Guid(739e26c5849eb3447ac0d76caae2b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76265472552ae80749c3144abc0be7ad') in 0.026127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Kenney Food/celeryStick.fbx
+  artifactKey: Guid(acea98c965d0c4e4e85ae5b99b880971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/celeryStick.fbx using Guid(acea98c965d0c4e4e85ae5b99b880971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4369218aa3d588ace55f5f487d7db4') in 0.031779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Kenney Food/cookingKnifeChopping.fbx
+  artifactKey: Guid(759a1f14880a68b49ba1f7ca5f2dd919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookingKnifeChopping.fbx using Guid(759a1f14880a68b49ba1f7ca5f2dd919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c28afb6f8a9177a5e8910fd019ad1c3') in 0.036169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Kenney Food/corn.fbx
+  artifactKey: Guid(7ca2922ebbbbdfc43b21f701148d2fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/corn.fbx using Guid(7ca2922ebbbbdfc43b21f701148d2fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52225fdbb03fedefb67c70bdcb137c5') in 0.030671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kenney Food/fries.fbx
+  artifactKey: Guid(f631afd0ba394f041add92838f988a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/fries.fbx using Guid(f631afd0ba394f041add92838f988a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4d8efbd437e0be3a04703e6113ac2') in 0.041528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kenney Food/cakeBirthday.fbx
+  artifactKey: Guid(864cf99a8ec314b4783a0ca557657ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cakeBirthday.fbx using Guid(864cf99a8ec314b4783a0ca557657ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f9e4ca0f3976e487ee5189107726e0') in 0.105661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Kenney Food/coconut.fbx
+  artifactKey: Guid(5586093950022dd4dba2fa0cda897e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/coconut.fbx using Guid(5586093950022dd4dba2fa0cda897e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569c06fe77292321bcfd14e2114d859b') in 0.035921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Kenney Food/gingerBreadCutter.fbx
+  artifactKey: Guid(6b54b424009b90446a97954a69ff9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/gingerBreadCutter.fbx using Guid(6b54b424009b90446a97954a69ff9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f19df362f6dd2149e5ecd0db7b6a9c3') in 0.025221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Kenney Food/frikandelSpeciaal.fbx
+  artifactKey: Guid(a74df4a60da940d4b9a0e618df5f630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/frikandelSpeciaal.fbx using Guid(a74df4a60da940d4b9a0e618df5f630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d227cf86ff21c4e0572c8f35ea8620') in 0.069133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Kenney Food/fryingPanLid.fbx
+  artifactKey: Guid(6c5b4d2b7ef022b4f88935178f89d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/fryingPanLid.fbx using Guid(6c5b4d2b7ef022b4f88935178f89d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655f180d6090241109a0e2d8a722aeb8') in 0.040565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Kenney Food/iceCreamCup.fbx
+  artifactKey: Guid(d26c886fc18c05c4486f139056eaaf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/iceCreamCup.fbx using Guid(d26c886fc18c05c4486f139056eaaf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95f7c22a58e333f702106d0bedd8818') in 0.029160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Kenney Food/iceCreamScoopMint.fbx
+  artifactKey: Guid(8f5d21496f3d4f949a5acd25f5f2e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/iceCreamScoopMint.fbx using Guid(8f5d21496f3d4f949a5acd25f5f2e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce4d2268e835042aaebbac2e9bb0861') in 0.025039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Kenney Food/knifeBlock.fbx
+  artifactKey: Guid(a3f8142aea577034e87c594e95877743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/knifeBlock.fbx using Guid(a3f8142aea577034e87c594e95877743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7d8cf177f1c9515e657488a70a9dfb') in 0.075317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Kenney Food/lemon.fbx
+  artifactKey: Guid(20b282408e59d934eadfc91eeea509ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/lemon.fbx using Guid(20b282408e59d934eadfc91eeea509ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96a21a6cfd6fe133388e1639b684fba') in 0.035468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Kenney Food/honey.fbx
+  artifactKey: Guid(0750eb0fe83b6c7488c8a5d289f1b444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/honey.fbx using Guid(0750eb0fe83b6c7488c8a5d289f1b444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c39555968822519a0a775fa75005ed') in 0.040476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Kenney Food/glassWine.fbx
+  artifactKey: Guid(24794dc3cb0ff95489c7f3fd0e992300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/glassWine.fbx using Guid(24794dc3cb0ff95489c7f3fd0e992300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e27cdb45386c78c0ad1cf4d7501586e') in 0.030916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Kenney Food/gingerBread.fbx
+  artifactKey: Guid(30ab19fbe7f4c1141be6d6cbfda9b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/gingerBread.fbx using Guid(30ab19fbe7f4c1141be6d6cbfda9b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57c9a4ef6609ad61f64df966722c4ee') in 0.032683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Food/iceCreamCone.fbx
+  artifactKey: Guid(12020ee59865b3341a25f88c5f2c6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/iceCreamCone.fbx using Guid(12020ee59865b3341a25f88c5f2c6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3917b16e44c8920da2e1842dc011cb3b') in 0.030602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Kenney Food/eggCooked.fbx
+  artifactKey: Guid(3c4e7d8d05898534489e5ac05266a1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/eggCooked.fbx using Guid(3c4e7d8d05898534489e5ac05266a1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8975e65fc743f1fe4e19e34cc0542830') in 0.033234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Kenney Food/cheeseCut.fbx
+  artifactKey: Guid(2c3f16df619fc434fb70049348d182b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cheeseCut.fbx using Guid(2c3f16df619fc434fb70049348d182b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1775384e1d120e247571fca00ab978') in 0.039152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Kenney Food/barrel.fbx
+  artifactKey: Guid(a684e9fc8103a0243970d7a793cda39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/barrel.fbx using Guid(a684e9fc8103a0243970d7a793cda39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e420f0e2b2394d7671696e79cc28694') in 0.037250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Kenney Food/lemonHalf.fbx
+  artifactKey: Guid(798d5a318c5747f4fb604af9587a6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/lemonHalf.fbx using Guid(798d5a318c5747f4fb604af9587a6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f940e3959d4fca85df57fbf051220f') in 0.045325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Kenney Food/onionHalf.fbx
+  artifactKey: Guid(e2c6be16a967aed4fb5ecf42dc0aeddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/onionHalf.fbx using Guid(e2c6be16a967aed4fb5ecf42dc0aeddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed592163689e6c4938447a1957fbac4b') in 0.033008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Kenney Food/pan.fbx
+  artifactKey: Guid(c7465e61abd878e40909e5b8b4cd212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pan.fbx using Guid(c7465e61abd878e40909e5b8b4cd212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b31d70c6c895f0dd9123c22dc95f12') in 0.030528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Kenney Food/loafBaguette.fbx
+  artifactKey: Guid(495eaf5774c08df428c342b785ffb474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/loafBaguette.fbx using Guid(495eaf5774c08df428c342b785ffb474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aae1b059d1ca37559958b278254c4fe') in 0.034494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Kenney Food/meatSausage.fbx
+  artifactKey: Guid(21e8c0ff51b0f154fa6d4325453303dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/meatSausage.fbx using Guid(21e8c0ff51b0f154fa6d4325453303dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1616e5c55e6c0e1b7d6cc0ad0cf57a0') in 0.026508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Kenney Food/hotDogRaw.fbx
+  artifactKey: Guid(0579fd4025af3544daee72bd089d743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/hotDogRaw.fbx using Guid(0579fd4025af3544daee72bd089d743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de5ef376f6fe9689b4c8da7d438daa4') in 0.029289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Kenney Food/muffin.fbx
+  artifactKey: Guid(ae8545c831a7e2149beaadf5f75079d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/muffin.fbx using Guid(ae8545c831a7e2149beaadf5f75079d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3565ab51788f243760eb2896efd5069f') in 0.032438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Food/iceCream.fbx
+  artifactKey: Guid(aa3d95d6abb2b074bbd3c48209b8af5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/iceCream.fbx using Guid(aa3d95d6abb2b074bbd3c48209b8af5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129aef440b041411c1e2e40894ff7dad') in 0.030812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Kenney Food/cookingFork.fbx
+  artifactKey: Guid(7e1db045cd2d4c645ae02f9e083821c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookingFork.fbx using Guid(7e1db045cd2d4c645ae02f9e083821c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d39b29facf4f17cef1268f6da7857') in 0.033106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kenney Food/makiSalmon.fbx
+  artifactKey: Guid(1945688b30f605c4494389eb53fb6f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/makiSalmon.fbx using Guid(1945688b30f605c4494389eb53fb6f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d2eb44dc22aac63ee1858789bcc17e') in 0.034351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Kenney Food/mushroom.fbx
+  artifactKey: Guid(cf6e56ca4d2775c419c1e05d3c1231f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mushroom.fbx using Guid(cf6e56ca4d2775c419c1e05d3c1231f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c30643f3a4c4c6b8d5f5e12983ada2') in 0.031342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Kenney Food/iceCreamScoop.fbx
+  artifactKey: Guid(ca37c0398955dd848825356fff0a826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/iceCreamScoop.fbx using Guid(ca37c0398955dd848825356fff0a826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92eab2051378e86dfc5e142bd69079b') in 0.047551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Kenney Food/cuttingBoardJapanese.fbx
+  artifactKey: Guid(5d2aad47af0f8214a9289701848d2338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cuttingBoardJapanese.fbx using Guid(5d2aad47af0f8214a9289701848d2338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7afbfee61a6d7b72be38d15afb431e') in 0.029501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Kenney Food/croissant.fbx
+  artifactKey: Guid(f747994df1c20dc4dbe4e9a9aa79bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/croissant.fbx using Guid(f747994df1c20dc4dbe4e9a9aa79bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07342cc4c0b021cd0c7b2b7989d9c90f') in 0.027135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Food/egg.fbx
+  artifactKey: Guid(576f4093e7f83f74dad8fcd185660952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/egg.fbx using Guid(576f4093e7f83f74dad8fcd185660952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2f06fd50cffcea6294bd51c8400ac8') in 0.025234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Kenney Food/fryingPan.fbx
+  artifactKey: Guid(eccab17840f5db04492cfddbc24da914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/fryingPan.fbx using Guid(eccab17840f5db04492cfddbc24da914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53e894df4067607a42b3d096eb9dda5') in 0.031414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Food/cuttingBoardRound.fbx
+  artifactKey: Guid(e8a00bf844cbbcc4ea99f6f924f7f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cuttingBoardRound.fbx using Guid(e8a00bf844cbbcc4ea99f6f924f7f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0006f3d30f0becdf025ab252aefcd2de') in 0.033079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Kenney Food/meatRaw.fbx
+  artifactKey: Guid(c9b1b7eaf16e0c64283fa23ae3ae808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/meatRaw.fbx using Guid(c9b1b7eaf16e0c64283fa23ae3ae808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c410ebce2723009e0e52d3ee1fccf68c') in 0.030125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Kenney Food/chocolateWrapper.fbx
+  artifactKey: Guid(702c76282d644e949b66a302f53a5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/chocolateWrapper.fbx using Guid(702c76282d644e949b66a302f53a5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeea2d07c2efd9c01f198d8b222e182') in 0.038060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Kenney Food/donutSprinkles.fbx
+  artifactKey: Guid(df7b176cdba8d9249aa582435adeaa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/donutSprinkles.fbx using Guid(df7b176cdba8d9249aa582435adeaa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f0f04b2ab1c010b1babe4d22534db1') in 0.045191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Kenney Food/meatPatty.fbx
+  artifactKey: Guid(07d605637def19b46bf6cf629b7823be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/meatPatty.fbx using Guid(07d605637def19b46bf6cf629b7823be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1316648ac76138f8e89fe41957b4eb04') in 0.030422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Kenney Food/makiVegetable.fbx
+  artifactKey: Guid(177468c36101b61479dc74d87d956471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/makiVegetable.fbx using Guid(177468c36101b61479dc74d87d956471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1f2ec6f5b396ed29fcfd263ae1f794') in 0.039301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Kenney Food/cheeseSlicer.fbx
+  artifactKey: Guid(216c1082d968ffe4eb3cb945ac66403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cheeseSlicer.fbx using Guid(216c1082d968ffe4eb3cb945ac66403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cec659cbfd2bbc16198e4c48dc0a1d0') in 0.034175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Kenney Food/meatRibs.fbx
+  artifactKey: Guid(79a449a3fd526d346a2b17df8d1818a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/meatRibs.fbx using Guid(79a449a3fd526d346a2b17df8d1818a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9766a28536c04aa6f7f398eb04c5e2') in 0.031797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Kenney Food/loafRound.fbx
+  artifactKey: Guid(2cb4c26099353b7499237272c17d82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/loafRound.fbx using Guid(2cb4c26099353b7499237272c17d82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeb760d2732ad89ccddeff70e9689d1') in 0.041355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Kenney Food/dimSum.fbx
+  artifactKey: Guid(22397ba7478aa90428099c1a6653151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/dimSum.fbx using Guid(22397ba7478aa90428099c1a6653151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef8fa34b54558bc94445978c5ba9cf0') in 0.030093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Kenney Food/donut.fbx
+  artifactKey: Guid(28c655881fb968746b94b3a4cb96c0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/donut.fbx using Guid(28c655881fb968746b94b3a4cb96c0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd092a072e09f8418667807dcd22fe1') in 0.025936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Kenney Food/chopstickFancy.fbx
+  artifactKey: Guid(60ec17086c6c49645834adad7ebe5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/chopstickFancy.fbx using Guid(60ec17086c6c49645834adad7ebe5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3194ba560c0f39d03a72ab5fa35f6503') in 0.036064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Kenney Food/candyBar.fbx
+  artifactKey: Guid(7619e8cea150c0348a2180a54255ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/candyBar.fbx using Guid(7619e8cea150c0348a2180a54255ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4500e11786dea29f66cbd347cdf201b') in 0.028712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Kenney Food/meatTenderizer.fbx
+  artifactKey: Guid(0e03ac032e4fb9643924087b557a0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/meatTenderizer.fbx using Guid(0e03ac032e4fb9643924087b557a0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ce6e3cc3acd15863faa7e3f3d5fb6d') in 0.034979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Kenney Food/cheese.fbx
+  artifactKey: Guid(6e95b941ae077d745aa2165910072af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cheese.fbx using Guid(6e95b941ae077d745aa2165910072af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390892d779c6390716a4dae7feadf30d') in 0.132141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Kenney Food/pepperMill.fbx
+  artifactKey: Guid(b907c25cff676244689796ba2617b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pepperMill.fbx using Guid(b907c25cff676244689796ba2617b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a356a468bd164127de379a792ea5316') in 0.031830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Kenney Food/pepper.fbx
+  artifactKey: Guid(635325590b4e07e41a2e72d1cd0d73d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pepper.fbx using Guid(635325590b4e07e41a2e72d1cd0d73d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0594d2ce9f863d0dfddb45f65a1c944a') in 0.033298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Kenney Food/peanutButter.fbx
+  artifactKey: Guid(5b8941fbb56a7ec4488c53a9ef938724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/peanutButter.fbx using Guid(5b8941fbb56a7ec4488c53a9ef938724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36d50823629001dfd233bdbbfea715d') in 0.041929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Kenney Food/pineapple.fbx
+  artifactKey: Guid(8dcf00212a7f490408cdf6b4c9ed5298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pineapple.fbx using Guid(8dcf00212a7f490408cdf6b4c9ed5298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ecad1b94d4713639771d79628e7127') in 0.030589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Kenney Food/paprikaSlice.fbx
+  artifactKey: Guid(e77f3a2d1593949458c1b7cf29537347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/paprikaSlice.fbx using Guid(e77f3a2d1593949458c1b7cf29537347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d472a3b63cb33b18ec3b77fc013a9c') in 0.029048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Kenney Food/pizzaBox.fbx
+  artifactKey: Guid(a334917f4521c6e4ba65b5266936951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pizzaBox.fbx using Guid(a334917f4521c6e4ba65b5266936951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ed9f975ae9b75038a5c074c688f6fc') in 0.035430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Kenney Food/pizza.fbx
+  artifactKey: Guid(ff39fe1815b989749af08061c51c79e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pizza.fbx using Guid(ff39fe1815b989749af08061c51c79e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d97e6373c4e9ab8db6867ea4424344') in 0.114636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Kenney Food/pearHalf.fbx
+  artifactKey: Guid(02485c07ae540b74d9fbd86859b1a73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pearHalf.fbx using Guid(02485c07ae540b74d9fbd86859b1a73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f55539ea56cf0f10d7aad59653ee95e') in 0.051319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Kenney Food/musselOpen.fbx
+  artifactKey: Guid(16e3c2a86f311f8499c61f9f215c4cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/musselOpen.fbx using Guid(16e3c2a86f311f8499c61f9f215c4cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ccd40f25a61fa025fbaea0573d57da') in 0.031458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Kenney Food/paprika.fbx
+  artifactKey: Guid(8c1248c2b615a704aaf21acdc0a48547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/paprika.fbx using Guid(8c1248c2b615a704aaf21acdc0a48547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081856843137307cf96d63194b3936ec') in 0.032662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Kenney Food/cookingKnife.fbx
+  artifactKey: Guid(63bf5771876380143be774db34c9f8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookingKnife.fbx using Guid(63bf5771876380143be774db34c9f8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3791e524d758e8eb44ae5dd155b772') in 0.038486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Kenney Food/meatCooked.fbx
+  artifactKey: Guid(3d9238868ab0d6242b6a19b4b19ce8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/meatCooked.fbx using Guid(3d9238868ab0d6242b6a19b4b19ce8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a0833d207d4920c2a5a8c6d6798874') in 0.040357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Kenney Food/onion.fbx
+  artifactKey: Guid(ff41eca28305be941934a074bc64d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/onion.fbx using Guid(ff41eca28305be941934a074bc64d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cf380db73d94735b4c3cf9a1a64065') in 0.025385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Kenney Food/makiRoe.fbx
+  artifactKey: Guid(3dfce3cc74035d44cab8e19ccde684a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/makiRoe.fbx using Guid(3dfce3cc74035d44cab8e19ccde684a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6917337ab1bac16d595be318054aa3a3') in 0.033285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Kenney Food/mortar.fbx
+  artifactKey: Guid(8992a917c5024e04dbc6496c1cebfab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mortar.fbx using Guid(8992a917c5024e04dbc6496c1cebfab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d13d7607d00707ccc9a926f89fd27f') in 0.026005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Kenney Food/orange.fbx
+  artifactKey: Guid(65b41f48bd5ca6448a79340044dd102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/orange.fbx using Guid(65b41f48bd5ca6448a79340044dd102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d8948b9e67f5e3036485198b998672') in 0.031935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Kenney Food/loaf.fbx
+  artifactKey: Guid(47068985d31938845bbb8cb2cd634ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/loaf.fbx using Guid(47068985d31938845bbb8cb2cd634ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b05886e5e9060e7f4eb39035f5ede5') in 0.031785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Kenney Food/panStew.fbx
+  artifactKey: Guid(546e8498b2af7dc49adb649d23ff7cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/panStew.fbx using Guid(546e8498b2af7dc49adb649d23ff7cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6994963050cf5bf8ddce7612192247') in 0.051510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Kenney Food/lollypop.fbx
+  artifactKey: Guid(ae5b782f2af12384895d9e7b88303564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/lollypop.fbx using Guid(ae5b782f2af12384895d9e7b88303564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c8c4e70c49b04b5c8d66a76e8332b3') in 0.038991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Kenney Food/mushroomHalf.fbx
+  artifactKey: Guid(86cf0ffb5c75b3744a171a0a2372a4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mushroomHalf.fbx using Guid(86cf0ffb5c75b3744a171a0a2372a4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8a2bee10b1ffecb181267b91484659') in 0.032081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Kenney Food/bowlBroth.fbx
+  artifactKey: Guid(4d59ec8f1c19b714291da155cd1633b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bowlBroth.fbx using Guid(4d59ec8f1c19b714291da155cd1633b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24560e158d0386c74f2c33492158314') in 0.069190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Kenney Food/friesEmpty.fbx
+  artifactKey: Guid(239b3b3697d4c304ab9f6c4e3f4b5e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/friesEmpty.fbx using Guid(239b3b3697d4c304ab9f6c4e3f4b5e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c32aa4c0257fbfcfd01f4483da56046') in 0.034507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Kenney Food/cupcake.fbx
+  artifactKey: Guid(442a90eea4c2a454f943a0597ebf6a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cupcake.fbx using Guid(442a90eea4c2a454f943a0597ebf6a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fa7507c29de6015e753d7aacc2681f') in 0.066697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Kenney Food/fishBones.fbx
+  artifactKey: Guid(cf076dc1f0414de46864e289f43bcccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/fishBones.fbx using Guid(cf076dc1f0414de46864e289f43bcccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7dde98c1e60217866894e3dc2a69df') in 0.026863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Kenney Food/cuttingBoard.fbx
+  artifactKey: Guid(5d4b6b5e383306548b060ee748afc782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cuttingBoard.fbx using Guid(5d4b6b5e383306548b060ee748afc782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fd5e3c69a4d9ad12dff35c52f66158') in 0.034053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Kenney Food/mussel.fbx
+  artifactKey: Guid(53b88f3f5733cd14b98a99d0f8d66e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mussel.fbx using Guid(53b88f3f5733cd14b98a99d0f8d66e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5ce1a2cff9c0e5e56a51a96119e9d3') in 0.026627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Kenney Food/mortarPestle.fbx
+  artifactKey: Guid(635591704be589f4e860033c70ff098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mortarPestle.fbx using Guid(635591704be589f4e860033c70ff098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d287a591e028faf73ecc26e2a6f95e') in 0.034846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Kenney Food/pear.fbx
+  artifactKey: Guid(a76e014d2c942db40bb34c3100d6ca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pear.fbx using Guid(a76e014d2c942db40bb34c3100d6ca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fa294d28f9b19e379c88f8c5050f3b') in 0.030132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Kenney Food/chinese.fbx
+  artifactKey: Guid(d955e35d7fb67e845a0beb6d325291d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/chinese.fbx using Guid(d955e35d7fb67e845a0beb6d325291d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1fecd5e711de95093b6287c505a17a') in 0.061511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Kenney Food/mincemeatPie.fbx
+  artifactKey: Guid(b0b7af3000b9f7946a038868703620d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mincemeatPie.fbx using Guid(b0b7af3000b9f7946a038868703620d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3712599c7e9102d098c6547138d830e') in 0.037251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Kenney Food/pie.fbx
+  artifactKey: Guid(71315b931a46b35498fb25769c9a8efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pie.fbx using Guid(71315b931a46b35498fb25769c9a8efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e83d641450415e093e81f26d2755153') in 0.044530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Kenney Food/glass.fbx
+  artifactKey: Guid(682122d92d9b3e143be0b145561a1b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/glass.fbx using Guid(682122d92d9b3e143be0b145561a1b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3e23c783a4ae3233e10c03436b6d9c') in 0.024258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Kenney Food/cookingSpoon.fbx
+  artifactKey: Guid(200e72cc035ca9f41b510ba3c16ef5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cookingSpoon.fbx using Guid(200e72cc035ca9f41b510ba3c16ef5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4575e7818d8027bc5e53619d01a9d733') in 0.027352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Kenney Food/cocktail.fbx
+  artifactKey: Guid(56e024b5b8ecf2743b12d5896e38fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cocktail.fbx using Guid(56e024b5b8ecf2743b12d5896e38fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed82bf9a6ade17ad1199ce9684f1224a') in 0.065890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Kenney Food/cupSaucer.fbx
+  artifactKey: Guid(129f579d7ecc8ee44b90ea2787de83a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cupSaucer.fbx using Guid(129f579d7ecc8ee44b90ea2787de83a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fef51b8163a811d453a335f1c582db') in 0.025594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Kenney Food/fish.fbx
+  artifactKey: Guid(c1b29adc5a483354b9a049be86d76e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/fish.fbx using Guid(c1b29adc5a483354b9a049be86d76e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e35830017924db55b1819b1a49d7b2f') in 0.041941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Kenney Food/frappe.fbx
+  artifactKey: Guid(133c19b46038b9f408bbf2d947eaf214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/frappe.fbx using Guid(133c19b46038b9f408bbf2d947eaf214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c5a504b98c6d149548973d7aa27619') in 0.047019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Kenney Food/pancakes.fbx
+  artifactKey: Guid(647bed12a46c5cf4a871dbcc03a31dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/pancakes.fbx using Guid(647bed12a46c5cf4a871dbcc03a31dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc07da41b42c4a3d1f00d9aeb3d18f8') in 0.066999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Kenney Food/bag.fbx
+  artifactKey: Guid(6a0440092df7d094da6e224ff552997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bag.fbx using Guid(6a0440092df7d094da6e224ff552997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d8ec9d9c7b9d0bb25fcfaad6bc5db3') in 0.024728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Kenney Food/leek.fbx
+  artifactKey: Guid(6196fd34d8f67154f8a8c6867c74cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/leek.fbx using Guid(6196fd34d8f67154f8a8c6867c74cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5c42f0f82b3b4acc251879dff6a73') in 0.043950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Kenney Food/hotDog.fbx
+  artifactKey: Guid(a1f3c0db280afa14482d5b90dd17f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/hotDog.fbx using Guid(a1f3c0db280afa14482d5b90dd17f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c85d6e5846ed3cedb432313205b48f') in 0.060255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Kenney Food/mug.fbx
+  artifactKey: Guid(fc3108cd8a19e8c469b05a4f077d2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/mug.fbx using Guid(fc3108cd8a19e8c469b05a4f077d2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abd183a5619ea3ff31e60aa7387a16b') in 0.027374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Kenney Food/cartonSmall.fbx
+  artifactKey: Guid(dbd8a6f9d75239d46aabbf9bcafcecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cartonSmall.fbx using Guid(dbd8a6f9d75239d46aabbf9bcafcecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a18e3864398d415222c1734e3818119') in 0.036009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Kenney Food/cornDog.fbx
+  artifactKey: Guid(df69612d48b95d642b82b9068601c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/cornDog.fbx using Guid(df69612d48b95d642b82b9068601c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051ff199d87cf02011375238a4e6c5d3') in 0.030793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Kenney Food/grapes.fbx
+  artifactKey: Guid(17c2e674faf5b8d4192cb685687a4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/grapes.fbx using Guid(17c2e674faf5b8d4192cb685687a4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884510b99273e25aa3dc90b34dc462d6') in 0.036112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Kenney Food/avocado.fbx
+  artifactKey: Guid(2d64b874aa0329042bd217185c09d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/avocado.fbx using Guid(2d64b874aa0329042bd217185c09d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffa6bd669e8d9f65f282945c9b08402') in 0.027223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Kenney Food/bowlCereal.fbx
+  artifactKey: Guid(623267ec967245841abb48d1d6a0b04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/bowlCereal.fbx using Guid(623267ec967245841abb48d1d6a0b04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6526f109a2ff4799ca6a446fdf45f7e6') in 0.051753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Kenney Food/eggCup.fbx
+  artifactKey: Guid(db1eb8ac6ab7d0745b385a9978acfdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/eggCup.fbx using Guid(db1eb8ac6ab7d0745b385a9978acfdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf5eb3abbc19bf6fdfb2adfbca2ddcb') in 0.037254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Kenney Food/burgerDouble.fbx
+  artifactKey: Guid(827686b776953f14bbf98a2743fcd9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/burgerDouble.fbx using Guid(827686b776953f14bbf98a2743fcd9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6fbb60b216f041f4015db20fc9dba') in 0.182520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Kenney Food/eggplant.fbx
+  artifactKey: Guid(9d86c254290547c40a34b29a1e6fe95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Food/eggplant.fbx using Guid(9d86c254290547c40a34b29a1e6fe95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e74499222bc0cb7e8ece06054b61fa') in 0.047003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.526809 seconds.
   path: Assets/Materials/bottleWater_mat.mat
   artifactKey: Guid(faf641695dc69e94b82ebb63a33be5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/bottleWater_mat.mat using Guid(faf641695dc69e94b82ebb63a33be5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9bacaef5df07bb2b27061ad452d7a2') in 0.013433 seconds 
+Start importing Assets/Materials/bottleWater_mat.mat using Guid(faf641695dc69e94b82ebb63a33be5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9bacaef5df07bb2b27061ad452d7a2') in 0.020896 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.423665 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(afda2e6c33116bb4e9da4702d86c48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(afda2e6c33116bb4e9da4702d86c48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ce0f9bb7c3ff0a56ce3e4b87af3ee0') in 0.015120 seconds 
+  Time since last request: 0.000354 seconds.
+  path: Assets/Materials/rubber_mat.mat
+  artifactKey: Guid(4a930f3c3f70ea049991a7fc97351dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rubber_mat.mat using Guid(4a930f3c3f70ea049991a7fc97351dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbde0bde5b7d4c496a005dff7b848e8') in 0.011422 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.469893 seconds.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Materials/wood texture.mat
+  artifactKey: Guid(2b6a9cb27266985499cc6de155c349b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wood texture.mat using Guid(2b6a9cb27266985499cc6de155c349b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6972c2c887003440df3b00e32cc178') in 0.022729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Materials/roof_mat.mat
+  artifactKey: Guid(9b41dbaa25f9bd14f983d3931f4dfd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/roof_mat.mat using Guid(9b41dbaa25f9bd14f983d3931f4dfd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e79be18a59375c5da6e0e2db812ad5') in 0.017088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Materials/counter_mat.mat
+  artifactKey: Guid(205d386dc8e621e429cb8c3d308912cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/counter_mat.mat using Guid(205d386dc8e621e429cb8c3d308912cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5db8c4dd9de9a71ad2764df321374d8') in 0.012197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Materials/metal2_mat.mat
+  artifactKey: Guid(04c371d6c211b794e946fc8332e8c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/metal2_mat.mat using Guid(04c371d6c211b794e946fc8332e8c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468d8f62d65f8f0dd56d4d2e7b4fc16') in 0.012642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Materials/wood_mat.mat
+  artifactKey: Guid(ab3e8dc5c222d7541b4cde05bda827a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wood_mat.mat using Guid(ab3e8dc5c222d7541b4cde05bda827a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4547c214bb7d4e4b3f208c488d22e62f') in 0.016992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Materials/metal1_mat.mat
+  artifactKey: Guid(67988a23fb8096149a293593fed3fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/metal1_mat.mat using Guid(67988a23fb8096149a293593fed3fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df9dfb434b1f479f3eb4593d4e40de3') in 0.012244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Materials/glass_mat.mat
+  artifactKey: Guid(4e0efb46deb4df144b0db26c158dd361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass_mat.mat using Guid(4e0efb46deb4df144b0db26c158dd361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea8530b44c4d6e3c8ab1e0f8683cfca') in 0.013183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Materials/wall_mat.mat
+  artifactKey: Guid(50e3d911ec3a4274c9865e1585cc3613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_mat.mat using Guid(50e3d911ec3a4274c9865e1585cc3613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265f91b75aee619a8c4a58f25343870b') in 0.013180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
   path: Assets/Materials/sugarBag_mat.mat
   artifactKey: Guid(afda2e6c33116bb4e9da4702d86c48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/sugarBag_mat.mat using Guid(afda2e6c33116bb4e9da4702d86c48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727194c7cc7593d39a859462be1d5279') in 0.012691 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
->>>>>>> level_design_progress
+Start importing Assets/Materials/sugarBag_mat.mat using Guid(afda2e6c33116bb4e9da4702d86c48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727194c7cc7593d39a859462be1d5279') in 0.013395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Materials/floor_mat.mat
+  artifactKey: Guid(d54a0fca1af02024f976a52c2e8fc472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/floor_mat.mat using Guid(d54a0fca1af02024f976a52c2e8fc472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0adde2c0761d86804295f6407bd6f8b') in 0.016375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.484897 seconds.
+  path: Assets/Materials/sugarBag_mat 1.mat
+  artifactKey: Guid(27cdcf77e22909c41bd47b635dc152d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sugarBag_mat 1.mat using Guid(27cdcf77e22909c41bd47b635dc152d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f27384bb7c9c09e6ec7ad7183707a4') in 0.013623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.220767 seconds.
+  path: Assets/Materials/timer_mat.mat
+  artifactKey: Guid(27cdcf77e22909c41bd47b635dc152d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/timer_mat.mat using Guid(27cdcf77e22909c41bd47b635dc152d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34a8febbf2a91a3894a74f98ec6cabb') in 0.013293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.093072 seconds.
+  path: Assets/Materials/timer_mat.mat
+  artifactKey: Guid(27cdcf77e22909c41bd47b635dc152d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/timer_mat.mat using Guid(27cdcf77e22909c41bd47b635dc152d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743e729f1d7f41e60e9a5fa93cfe7d8e') in 0.012650 seconds 
