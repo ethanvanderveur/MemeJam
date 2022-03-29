@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class MenuScript : MonoBehaviour
 
     public void StartButtonClicked()
     {
+        SceneManager.LoadScene("SampleScene");
         Debug.Log("Start!");
     }
 
@@ -25,6 +27,11 @@ public class MenuScript : MonoBehaviour
     {
         Debug.Log("Quit!");
         Application.Quit();
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScene");
     }
 
 }
