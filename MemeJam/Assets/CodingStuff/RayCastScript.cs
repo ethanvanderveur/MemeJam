@@ -29,14 +29,14 @@ public class RayCastScript : MonoBehaviour
                 if(hit.transform.gameObject.tag == "Cabinet" && Input.GetKeyDown(KeyCode.Space)){
                     Debug.Log("DOOR");
                     hit.transform.gameObject.tag = "CabinetOpen";
-                    Transform door = hit.transform.GetChild(6);
+                    Transform door = hit.transform;
                     Vector3 newRotation = new Vector3(0,90,0);
                     door.eulerAngles = newRotation;
                     Vector3 newPosition = new Vector3(hit.transform.position.x + 1, hit.transform.position.y, hit.transform.position.z);
                     door.position = newPosition;   
                 } else if (hit.transform.gameObject.tag == "CabinetOpen" && Input.GetKeyDown(KeyCode.Space)){
                     hit.transform.gameObject.tag = "Cabinet";
-                    Transform door = hit.transform.GetChild(6);
+                    Transform door = hit.transform;
                     Vector3 newRotation = new Vector3(0,0,0);
                     door.eulerAngles = newRotation;
                     Vector3 newPosition = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.transform.position.z);

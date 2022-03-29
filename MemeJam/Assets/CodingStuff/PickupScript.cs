@@ -36,9 +36,11 @@ public class PickupScript : MonoBehaviour
     private int punchCD = 0;
     private int punchMaxCD = 100;
 
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        
     }
 
     private void OnMouseDown()
@@ -77,12 +79,15 @@ public class PickupScript : MonoBehaviour
         if(GetComponent<ItemMoveScript>().type == ItemMoveScript.itemType.board && stepManager.GetComponent<UIManager>().step == 7){
             placablePositions.Add(oven.GetComponent<Transform>());
         }
+    
+
         GetComponent<Transform>().position = getClosestOpenPosition(placablePositions).position;
         GetComponent<Transform>().parent = getClosestOpenPosition(placablePositions).transform;
         
         //These next 3 checks check if an ingredient in step 0 is added to the bowl
         if(GetComponent<ItemMoveScript>().type == ItemMoveScript.itemType.water && getClosestOpenPosition(placablePositions).transform == bowl.transform){
             stepManager.GetComponent<UIManager>().bowlWater = true;
+            
             //add water to bowl
             if(gameObject != null)
                 Destroy(gameObject);
@@ -121,6 +126,8 @@ public class PickupScript : MonoBehaviour
         //checks for step 3, putting dough on board before kneading also step 6
         if(GetComponent<ItemMoveScript>().type == ItemMoveScript.itemType.bowl && getClosestOpenPosition(placablePositions).transform == board.transform){
             //place dough on top of board, empty bowl
+
+            
             stepManager.GetComponent<UIManager>().onBoard = true;
             GetComponent<Transform>().position = getClosestOpenPosition(GetComponent<ItemMoveScript>().getOpenPositions()).position;
             GetComponent<Transform>().parent = getClosestOpenPosition(GetComponent<ItemMoveScript>().getOpenPositions()).transform;
@@ -128,6 +135,7 @@ public class PickupScript : MonoBehaviour
         //checks for step 4, oiling bowl
         if(GetComponent<ItemMoveScript>().type == ItemMoveScript.itemType.board && getClosestOpenPosition(placablePositions).transform == bowl.transform){
             //place dough in bowl, empty board
+            
             stepManager.GetComponent<UIManager>().onBoard = false;
             GetComponent<Transform>().position = getClosestOpenPosition(GetComponent<ItemMoveScript>().getOpenPositions()).position;
             GetComponent<Transform>().parent = getClosestOpenPosition(GetComponent<ItemMoveScript>().getOpenPositions()).transform;
@@ -186,8 +194,7 @@ public class PickupScript : MonoBehaviour
                     stepManager.GetComponent<UIManager>().risen = true;
                     stepManager.GetComponent<UIManager>().offset += 20;
                 }
-                if(stepManager.GetComponent<UIManager>().step == 7){
-                    stepManager.GetComponent<UIManager>().risen = true;
+                if(stepManager.GetComponent<UIManager>().step == 7 && stepManager.GetComponent<UIManager>().inOven && !stepManager.GetComponent<UIManager>().ovenOpen){
                     //go to win screen?
                     Debug.Log("victory");
                 }
