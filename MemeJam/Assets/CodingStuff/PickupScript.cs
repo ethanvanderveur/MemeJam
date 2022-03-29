@@ -77,6 +77,7 @@ public class PickupScript : MonoBehaviour
             }   
         }
         if(GetComponent<ItemMoveScript>().type == ItemMoveScript.itemType.board && stepManager.GetComponent<UIManager>().step == 7){
+            placablePositions = null;
             placablePositions.Add(oven.GetComponent<Transform>());
         }
     
@@ -194,7 +195,7 @@ public class PickupScript : MonoBehaviour
                     stepManager.GetComponent<UIManager>().risen = true;
                     stepManager.GetComponent<UIManager>().offset += 20;
                 }
-                if(stepManager.GetComponent<UIManager>().step == 7 && stepManager.GetComponent<UIManager>().inOven && !stepManager.GetComponent<UIManager>().ovenOpen){
+                if(stepManager.GetComponent<UIManager>().step == 7){
                     //go to win screen?
                     Debug.Log("victory");
                 }

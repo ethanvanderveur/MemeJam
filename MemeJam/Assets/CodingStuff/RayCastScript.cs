@@ -26,7 +26,7 @@ public class RayCastScript : MonoBehaviour
             } else {
                 stepManager.GetComponent<UIManager>().typeText.text = "";
                 Debug.Log(hit.transform.gameObject.tag.ToString());
-                if(hit.transform.gameObject.tag == "Cabinet" && Input.GetKeyDown(KeyCode.Space)){
+                if(hit.transform.gameObject.tag == "Cabinet" && Input.GetKeyDown(KeyCode.E)){
                     Debug.Log("DOOR");
                     hit.transform.gameObject.tag = "CabinetOpen";
                     Transform door = hit.transform;
@@ -34,15 +34,15 @@ public class RayCastScript : MonoBehaviour
                     door.eulerAngles = newRotation;
                     Vector3 newPosition = new Vector3(hit.transform.position.x + 1, hit.transform.position.y, hit.transform.position.z);
                     door.position = newPosition;   
-                } else if (hit.transform.gameObject.tag == "CabinetOpen" && Input.GetKeyDown(KeyCode.Space)){
+                } else if (hit.transform.gameObject.tag == "CabinetOpen" && Input.GetKeyDown(KeyCode.E)){
                     hit.transform.gameObject.tag = "Cabinet";
                     Transform door = hit.transform;
                     Vector3 newRotation = new Vector3(0,0,0);
                     door.eulerAngles = newRotation;
-                    Vector3 newPosition = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.transform.position.z);
+                    Vector3 newPosition = new Vector3(hit.transform.position.x-1, hit.transform.position.y, hit.transform.position.z);
                     door.position = newPosition; 
                 }
-                if(hit.transform.gameObject.tag == "Oven" && Input.GetKeyDown(KeyCode.Space)){
+                if(hit.transform.gameObject.tag == "Oven" && Input.GetKeyDown(KeyCode.E)){
                     Debug.Log("DOOR");
                     hit.transform.gameObject.tag = "OvenOpen";
                     stepManager.GetComponent<UIManager>().ovenOpen = true;
@@ -51,7 +51,7 @@ public class RayCastScript : MonoBehaviour
                     door.eulerAngles = newRotation;
                     Vector3 newPosition = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.transform.position.z + 1);
                     door.position = newPosition;   
-                } else if (hit.transform.gameObject.tag == "OvenOpen" && Input.GetKeyDown(KeyCode.Space)){
+                } else if (hit.transform.gameObject.tag == "OvenOpen" && Input.GetKeyDown(KeyCode.E)){
                     hit.transform.gameObject.tag = "Oven";
                     stepManager.GetComponent<UIManager>().ovenOpen = false;
                     Transform door = hit.transform.GetChild(5);

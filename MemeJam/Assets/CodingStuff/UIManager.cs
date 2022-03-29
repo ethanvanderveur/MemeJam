@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     public Text typeText;
-
+    [SerializeField]
+    public Text extraText;
     [SerializeField]
     public Text timeText;
     private float startTime;
@@ -56,11 +58,14 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         float t = maxTime - offset - Time.time - startTime;
+        if(t <= 0){
+            SceneManager.LoadScene("LoseScene");
+        }
         string minutes = ((int) t / 60).ToString();
         string seconds = ((int) t % 60).ToString("00");
         timeText.text = minutes + ":" + seconds;
 
-
+        
         switch (step){//changes instructions and changes state
             case 0:
                 textbox.text = "Mix warm water, yeast, and sugar in mixing bowl";
@@ -73,12 +78,14 @@ public class UIManager : MonoBehaviour
                     step = 2;
                 break;
             case 2: 
-                textbox.text = "Mix!";
+                textbox.text = "Mix (keep pressing space on the bowl with the whisk)!";
                 if(mixNum >= mixMaxNum)
                     step = 3;
                 break;
             case 3:
-                textbox.text = "Place dough on cutting board and knead";
+                textbox.text = "Place dough on cutting board and knead (mash space on board to knead)";
+                if(onBoard)
+                    extraText.text = "Dough on board!";
                 if(kneadNum >= kneadMaxNum){
                     step = 4;
                     bowlOil = false;
@@ -86,6 +93,8 @@ public class UIManager : MonoBehaviour
                 break;
             case 4:
                 textbox.text = "Put the dough in an oiled bowl";
+                if(!onBoard)
+                    extraText.text = "Dough in bowl!";
                 if(bowlOil && !onBoard)
                     step = 5;
                 break;
@@ -95,12 +104,15 @@ public class UIManager : MonoBehaviour
                     step = 6;
                 break;
             case 6:
-                textbox.text = "Place dough on cutting board and punch to shape it";
+                textbox.text = "Place dough on cutting board and punch to shape it (mash space on board to punch)";
+                if(onBoard)
+                    extraText.text = "Dough on board!";
                 if(punchNum >= punchMaxNum)
                     step = 7;
                 break;
             case 7:
                 textbox.text = "Throw it in the oven and hit the timer";
+                extraText.text = "Dough in oven!";
                 break;
         }
     }
