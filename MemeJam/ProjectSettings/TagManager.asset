@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cabinet
+  - Oven
+  - Fridge
+  - CabinetOpen
+  - FridgeOpen
+  - OvenOpen
   layers:
   - Default
   - TransparentFX

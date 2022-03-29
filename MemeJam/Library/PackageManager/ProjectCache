@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637841118400830811
+      ticks: 637841140444228998
     m_Hash: 569354785
-=======
-      ticks: 637835225177274381
-    m_Hash: 1057529631
->>>>>>> level_design_progress
   m_LockFileStatus:
     m_FilePath: C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637841118400830811
+      ticks: 637841140444238972
     m_Hash: 539322556
-=======
-      ticks: 637835225177284300
-    m_Hash: 1165375285
->>>>>>> level_design_progress
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

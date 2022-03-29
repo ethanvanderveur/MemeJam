@@ -182,12 +182,15 @@ public class PickupScript : MonoBehaviour
             placablePositions.Add(timer.GetComponent<Transform>());
             if(getClosestOpenPosition(placablePositions).transform == timer.transform){
                 Debug.Log("timer");
-                stepManager.GetComponent<UIManager>().offset += 20;
-                if(stepManager.GetComponent<UIManager>().step == 5)
+                if(stepManager.GetComponent<UIManager>().step == 5){
                     stepManager.GetComponent<UIManager>().risen = true;
-                if(stepManager.GetComponent<UIManager>().step == 7)
+                    stepManager.GetComponent<UIManager>().offset += 20;
+                }
+                if(stepManager.GetComponent<UIManager>().step == 7){
+                    stepManager.GetComponent<UIManager>().risen = true;
                     //go to win screen?
                     Debug.Log("victory");
+                }
             }
         }
     }
