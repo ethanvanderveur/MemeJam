@@ -8,43 +8,99 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text textbox;
 
-    int step = 0;
-    int time = 0;
+    [SerializeField]
+    public Text typeText;
+
+    [SerializeField]
+    public Text timeText;
+    private float startTime;
+    private float maxTime;
+    public float offset = 0;
+
+    [SerializeField]
+    public GameObject bowl;
+
+    public int step = 0;
+    public int time = 0;
+    //step 0
+    public bool bowlWater = false;
+    public bool bowlYeast = false;
+    public bool bowlSugar = false;
+    //step 1
+    public bool bowlOil = false;
+    public bool bowlSalt = false;
+    public bool bowlFlour = false;
+    //step 2
+    public int mixNum = 0;
+    private int mixMaxNum = 10;
+    //step 3
+    public int kneadNum = 0;
+    private int kneadMaxNum = 50;
+    public bool onBoard = false;
+    //step 5
+    public bool risen = false;
+    //step 6
+    public int punchNum = 0;
+    private int punchMaxNum = 10;
+    //step 7
+    public bool inOven = false;
+    public bool ovenOpen = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        startTime = Time.time;
+        maxTime = 120;
     }
 
     // Update is called once per frame
     void Update()
     {
-        time++;
-        if(time >= 200){
-            time = 0;
-            step++;
-        }
-        switch (step){
+        float t = maxTime - offset - Time.time - startTime;
+        string minutes = ((int) t / 60).ToString();
+        string seconds = ((int) t % 60).ToString("00");
+        timeText.text = minutes + ":" + seconds;
+
+
+        switch (step){//changes instructions and changes state
             case 0:
-                textbox.text = "Mix warm water, yeast, and granulated sugar in mixing bowl";
+                textbox.text = "Mix warm water, yeast, and sugar in mixing bowl";
+                if(bowlWater && bowlYeast && bowlSugar)
+                    step = 1;
                 break;
             case 1:
-                textbox.text = "Add sugar, oil, salt, and flour and mix";
+                textbox.text = "Add oil, salt, and flour";
+                if(bowlFlour && bowlOil && bowlSalt)
+                    step = 2;
                 break;
-            case 2:
-                textbox.text = "Knead the dough";
+            case 2: 
+                textbox.text = "Mix!";
+                if(mixNum >= mixMaxNum)
+                    step = 3;
                 break;
             case 3:
-                textbox.text = "Put the dough in an oiled bowl and cover with plastic wrap";
+                textbox.text = "Place dough on cutting board and knead";
+                if(kneadNum >= kneadMaxNum){
+                    step = 4;
+                    bowlOil = false;
+                }
                 break;
             case 4:
-                textbox.text = "Allow time to rise";
+                textbox.text = "Put the dough in an oiled bowl";
+                if(bowlOil && !onBoard)
+                    step = 5;
                 break;
             case 5:
-                textbox.text = "Punch dough to shape it";
+                textbox.text = "Use timer to rise (costs 20 seconds)";
+                if(risen)
+                    step = 6;
                 break;
             case 6:
-                textbox.text = "Bake for 30 minutes";
+                textbox.text = "Place dough on cutting board and punch to shape it";
+                if(punchNum >= punchMaxNum)
+                    step = 7;
+                break;
+            case 7:
+                textbox.text = "Throw it in the oven and hit the timer";
                 break;
         }
     }

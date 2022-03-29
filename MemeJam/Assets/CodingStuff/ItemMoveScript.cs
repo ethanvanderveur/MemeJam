@@ -6,8 +6,23 @@ public class ItemMoveScript : MonoBehaviour
 {
     [SerializeField]
     private List<Transform> positions;
+    
+    public enum itemType{
+        other,
+        water,
+        yeast,
+        sugar,
+        bowl,
+        oil,
+        salt,
+        flour,
+        mixer,
+        dough,
+        board,
+        timer
+    }
     [SerializeField]
-    public string itemType;
+    public itemType type;
 
     private List<Transform> openPositions;
 
@@ -17,7 +32,6 @@ public class ItemMoveScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
