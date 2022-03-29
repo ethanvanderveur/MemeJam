@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16190 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,141 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam
+C:/Users/brent/OneDrive/Documents/GitHub/MemeJam/MemeJam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63208
-Successfully changed project path to: C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam
-C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam
+62390
+Successfully changed project path to: C:/Users/brent/OneDrive/Documents/GitHub/MemeJam/MemeJam
+C:/Users/brent/OneDrive/Documents/GitHub/MemeJam/MemeJam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ethan/Documents/GitHub/MemeJam/MemeJam/Assets
+[Subsystems] Discovering subsystems at path C:/Users/brent/OneDrive/Documents/GitHub/MemeJam/MemeJam/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7141
+    VRAM:     8010 MB
+    Driver:   30.0.15.1179
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002641 seconds.
+Registered in 0.002058 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.557 seconds
+- Completed reload, in  0.518 seconds
 Domain Reload Profiling:
-	ReloadAssembly (558ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (415ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (144ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (140ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003926 seconds.
+Registered in 0.003191 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F58BA95020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587573010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587A5FDF0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BA9FC30 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B3C4010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B3C4010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587A4FE40 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BE28030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587A4FE40 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BD90230 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BE65050 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B47A010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B9D9830 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B3E3420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  0.888 seconds
 Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (734ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (272ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
+Unloading 1562 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.4 MB.
+System memory in use after: 72.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1952.
-Total: 2.232500 ms (FindLiveObjects: 0.106400 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.027600 ms  DeleteObjects: 0.053700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.346900 ms (FindLiveObjects: 0.102800 ms CreateObjectMapping: 0.039100 ms MarkObjects: 2.142500 ms  DeleteObjects: 0.061400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,138 +154,633 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/CodingStuff/UI
-  artifactKey: Guid(6c8aaf66b2548144f949b4511aea42ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI using Guid(6c8aaf66b2548144f949b4511aea42ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599233f84ec7039aa621b322a60afcce') in 0.005536 seconds 
+  path: Assets/CodingStuff
+  artifactKey: Guid(3eb472d4140be6547a70861a16334f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodingStuff using Guid(3eb472d4140be6547a70861a16334f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc9431efdf3d03fccf55888c625e1ea') in 0.005580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/CodingStuff/UI/notepad.png
-  artifactKey: Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/notepad.png using Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90e909365e6adad27a624d408aa5761') in 0.035187 seconds 
+  Time since last request: 0.000281 seconds.
+  path: Assets/CodingStuff/crusshair.png
+  artifactKey: Guid(f965bbc331fca7642b3283a705376a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodingStuff/crusshair.png using Guid(f965bbc331fca7642b3283a705376a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab3715228795fa640ad24549164e4c') in 0.131219 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.243640 seconds.
-  path: Assets/CodingStuff/UI/Fonts
-  artifactKey: Guid(9c69cf3eb04124a48ad7eeea8bd89938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts using Guid(9c69cf3eb04124a48ad7eeea8bd89938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e9692878b2d3544a0222e12874d090') in 0.007233 seconds 
+  Time since last request: 0.000281 seconds.
+  path: Assets/MenuStuff/MenuGradient.asset
+  artifactKey: Guid(54d126b4c3bf4ba469681be9bd08c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/MenuGradient.asset using Guid(54d126b4c3bf4ba469681be9bd08c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a392360be714455c0d25b9b34f7d3b') in 0.010998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.070340 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf
-  artifactKey: Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf using Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20db4116fe384fab590adb646cf8e2a') in 0.005558 seconds 
+  Time since last request: 0.000282 seconds.
+  path: Assets/MenuStuff/treebackground.jpg
+  artifactKey: Guid(bc75753e105166447aed3e4a63b80969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/treebackground.jpg using Guid(bc75753e105166447aed3e4a63b80969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07dc70dde7e3fc666717bf9d791886') in 0.138250 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High.ttf
-  artifactKey: Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High.ttf using Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7767141fc97eee5cb094462e81159f88') in 0.003148 seconds 
+  Time since last request: 0.000264 seconds.
+  path: Assets/MenuStuff
+  artifactKey: Guid(f1e7ac0920fe3be47a296ae041f6a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff using Guid(f1e7ac0920fe3be47a296ae041f6a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad77b98f73b8c724983b1a5d8a4e3db') in 0.005164 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf
-  artifactKey: Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf using Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef31dc4a5da59d5c64f75d970ca3fbd') in 0.003696 seconds 
+  Time since last request: 21.235085 seconds.
+  path: Assets/MenuStuff/BreadByDaylightBanner.jpg
+  artifactKey: Guid(ebf3703a4b1163848959645508705eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/BreadByDaylightBanner.jpg using Guid(ebf3703a4b1163848959645508705eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0bfab431a6f461636d5e8bf22f84c9') in 0.017803 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf
-  artifactKey: Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf using Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a1ad407e53d7a229339f8d7a9f4f78') in 0.003440 seconds 
+  Time since last request: 14.421547 seconds.
+  path: Assets/MenuStuff/MainMenuScene.unity
+  artifactKey: Guid(195755bacf58d1b478a1993fad15e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/MainMenuScene.unity using Guid(195755bacf58d1b478a1993fad15e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05030fb9e2fdaca3efa07911bfb29fc4') in 0.005890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf
-  artifactKey: Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf using Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f32534ccf22ec2ac86de5a3094ff1f') in 0.003985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf
-  artifactKey: Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf using Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac35218da5ba42841f4081648f1a6c2') in 0.003686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf
-  artifactKey: Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf using Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1632113b80333d4ddeb95e577a88e199') in 0.003363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf
-  artifactKey: Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf using Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21a42ca7e07ec86a20b1e6e15f634a8') in 0.003453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf
-  artifactKey: Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf using Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d071d14e764fb0f27ac35f501c43f') in 0.003379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future.ttf
-  artifactKey: Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future.ttf using Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c7da6b568dc6d0eff1a2e7dfed85b9') in 0.003778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf
-  artifactKey: Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf using Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9e0eb8650dbd30bf314c35f7f5017') in 0.003698 seconds 
+  Time since last request: 0.000215 seconds.
+  path: Assets/MenuStuff/BreadByDaylightBanner.jpg
+  artifactKey: Guid(ebf3703a4b1163848959645508705eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/BreadByDaylightBanner.jpg using Guid(ebf3703a4b1163848959645508705eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d620abcfab13f3ce4cd18d7db3d3482') in 0.473591 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003717 seconds.
+Registered in 0.002929 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F587305020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C9FBEA0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F230020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587908030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587627780 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B47A010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587627780 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B47A010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587627780 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D176020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587908030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D188410 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587305020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587AB4020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  0.823 seconds
 Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (823ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (235ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (181ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 2.404000 ms (FindLiveObjects: 0.113000 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.229600 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003080 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58D1F8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B7077C0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B47A010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58706B020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58762FD80 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C452020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D1F8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 2.506500 ms (FindLiveObjects: 0.129900 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.308000 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003154 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58D1F8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B74B420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D176020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E542FD0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587125410 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C452020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D1F8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2015.
+Total: 2.228700 ms (FindLiveObjects: 0.114200 ms CreateObjectMapping: 0.042600 ms MarkObjects: 2.049900 ms  DeleteObjects: 0.021200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002988 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58E9B53E0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1D17BA0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58706B020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E690010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E86FC70 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58706B020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E690010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D188410 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BD01020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E9B53E0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Domain Reload Profiling:
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (669ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 2.279900 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.050600 ms MarkObjects: 2.073400 ms  DeleteObjects: 0.016600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58B3FBFD0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E716060 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C4DC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E690010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F6B4700 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C4DC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C4DC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C284020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B2CCE010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B3FBFD0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 2.510300 ms (FindLiveObjects: 0.132000 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.310200 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003094 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F5B21A6020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B74B420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587868430 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EF20020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1CD8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CB5B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EA67050 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B21A6020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (657ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 2.492700 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.041800 ms MarkObjects: 2.319000 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58B759A80 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B74B420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B197020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E55EA50 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58793F330 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F01C040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B197020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1CD8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E55EA50 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EA67050 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B759A80 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (898ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (173ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.1 MB.
-System memory in use after: 69.2 MB.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 2.273400 ms (FindLiveObjects: 0.108200 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.106700 ms  DeleteObjects: 0.017300 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 2.531800 ms (FindLiveObjects: 0.120400 ms CreateObjectMapping: 0.047900 ms MarkObjects: 2.344300 ms  DeleteObjects: 0.018300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -266,67 +789,448 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003024 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58704AF90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5879C8E70 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C4DC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F59014B040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58793F330 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B2D9C030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58706B020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1CD8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F59014B040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EA67050 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58704AF90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D14A030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (719ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 2.544300 ms (FindLiveObjects: 0.121700 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.339800 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003132 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F587AB4020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B74B420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C4DC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F59014B040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EF50040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F01C040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58706B020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587607770 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EF50040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1CD8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F59014B040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58EA67050 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587AB4020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B48A3080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 2.497700 ms (FindLiveObjects: 0.115900 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.320100 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.617136 seconds.
-  path: Assets/CodingStuff/UI/notepad.png
-  artifactKey: Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/notepad.png using Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629d194113291cfa85530fd31ec6f1dc') in 0.042784 seconds 
+  Time since last request: 2253.215207 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.116707 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.264038 seconds.
-  path: Assets/CodingStuff/UI/notepad.png
-  artifactKey: Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/notepad.png using Guid(05a1d7b2e3237d048818625233822e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf8b41b2191d85487c180500a481918') in 0.047812 seconds 
+  Time since last request: 0.000294 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.081412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.043466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.036167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 651.081121 seconds.
+  path: Assets/MenuStuff/MenuScript.cs
+  artifactKey: Guid(796cabd2d72c0b547bbfb39b99a86f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/MenuScript.cs using Guid(796cabd2d72c0b547bbfb39b99a86f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0acd3c2e456e19f9610ccbb0524839') in 0.045768 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004107 seconds.
+Registered in 0.004863 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F58FCCCE90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C9FBEA0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F59011B020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B1AE810 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B2940080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58D1BC030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B726010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F08E780 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E9BA870 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E7F9C60 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B3E33020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58FCCCE90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B48A2C90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  0.932 seconds
 Domain Reload Profiling:
-	ReloadAssembly (890ms)
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 2.845400 ms (FindLiveObjects: 0.136400 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.631700 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003622 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58FCCCE90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587056970 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B4089030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B1AE810 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B2940080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58709F830 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B726010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F05E010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58AF88410 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B3E33020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CFEC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B4C22010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 2.424800 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.057700 ms MarkObjects: 2.187700 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58FCCCE90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587945A10 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B4089030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B1AE810 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B2940080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B42C2010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B726010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F05E010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58AF88410 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B4A44030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B3C4010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58CFEC020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58FB12F30 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
 		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (717ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (256ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (271ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (181ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (177ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.3 MB.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 2.318600 ms (FindLiveObjects: 0.106300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.155100 ms  DeleteObjects: 0.014900 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 2.631400 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.289400 ms  DeleteObjects: 0.018200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -335,73 +1239,337 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.280470 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High.ttf
-  artifactKey: Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High.ttf using Guid(69f4c189546b9604781e1b4e30863045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408528ae3af0c52e952286c0f8b5028') in 0.068812 seconds 
+  Time since last request: 918.007724 seconds.
+  path: Assets/MenuStuff/LoseScene.unity
+  artifactKey: Guid(73d3a2102aa4705408594c624f3535bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/LoseScene.unity using Guid(73d3a2102aa4705408594c624f3535bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6cc49fb7b5bffa20b0db989fa06cb9') in 0.019237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf
-  artifactKey: Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney High Square.ttf using Guid(124f57fd48053cb41a5ce1fff2b35e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ed936b9a2372d69f55c795f7437a1') in 0.015236 seconds 
+  Time since last request: 6.823946 seconds.
+  path: Assets/MenuStuff/MenuGradient.asset
+  artifactKey: Guid(54d126b4c3bf4ba469681be9bd08c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/MenuGradient.asset using Guid(54d126b4c3bf4ba469681be9bd08c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd40d4420c7f1e537c4135fd1a3d50f3') in 0.006175 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf
-  artifactKey: Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Blocks.ttf using Guid(61168eae5f6ea7b469f86b8d1880a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774ff99db096416e094dc74366725b25') in 0.018796 seconds 
+  Time since last request: 4.738996 seconds.
+  path: Assets/MenuStuff/MainMenuScene.unity
+  artifactKey: Guid(195755bacf58d1b478a1993fad15e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/MainMenuScene.unity using Guid(195755bacf58d1b478a1993fad15e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0cf55929083c2a78d985e691c01b00') in 0.002748 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf
-  artifactKey: Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini.ttf using Guid(9bfc3f31e5ea82b49a8d3c537ea5c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c55e224f33544f17ac3ff009ab8d8ff') in 0.020633 seconds 
+  Time since last request: 26.810039 seconds.
+  path: Assets/MenuStuff/TheLoseScene.unity
+  artifactKey: Guid(b6821f59550d7514a9719633381ca0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/TheLoseScene.unity using Guid(b6821f59550d7514a9719633381ca0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aa4b951334880df63b2b74e25c4f67') in 0.007051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf
-  artifactKey: Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future Narrow.ttf using Guid(d0f3e710895f6194697e4f75e56b4ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698eb94ab2e384651939d1f00331d006') in 0.019338 seconds 
+  Time since last request: 106.936958 seconds.
+  path: Assets/MenuStuff/losescreen.jpg
+  artifactKey: Guid(55e88b2dfcbecea47bfd7471e1b792cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/losescreen.jpg using Guid(55e88b2dfcbecea47bfd7471e1b792cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42f728fb74f3b57293592bf4fcdec5b') in 0.025268 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf
-  artifactKey: Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket.ttf using Guid(348c31a645f55b14eb0c1adca633bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e196c6f8827d1cea940643c8fd88850') in 0.018059 seconds 
+  Time since last request: 11.168940 seconds.
+  path: Assets/MenuStuff/losescreen.jpg
+  artifactKey: Guid(55e88b2dfcbecea47bfd7471e1b792cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuStuff/losescreen.jpg using Guid(55e88b2dfcbecea47bfd7471e1b792cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6610709857c0c2b68e25bb920c3c61ee') in 0.117039 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf
-  artifactKey: Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Rocket Square.ttf using Guid(1613ac157006035429d2b7aa58cb5d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0558599ba9ec9ee94c386cb23a46e84') in 0.019554 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58FCCCE90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E659B90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B372A040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B47D1420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58709F830 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B726010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F05E010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58AF88410 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E7F9C60 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B3E33020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58FCCCE90 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5879AF030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (823ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 2.328900 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 2.143700 ms  DeleteObjects: 0.017900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf
-  artifactKey: Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel Square.ttf using Guid(d85c5dee1d141c34f964be0436bd3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60d47007dac053aa1a5081259abd7a') in 0.022050 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003053 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F58E652030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C9FBEA0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B372A040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B47D1420 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587629010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B726010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F05E010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1CD8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E7F9C60 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BCAD030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E652030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5903D1010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2078.
+Total: 2.574700 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.357600 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf
-  artifactKey: Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Pixel.ttf using Guid(03408907716be8f498ba06ecc4894bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acba12ed12f32d19a070a5973575ea0') in 0.019091 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F5B21A6020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58C9FBEA0 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B372A040 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58BDA0080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F314030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B2940080 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F587629010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58B726010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58F05E010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B1CD8030 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58E7F9C60 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B3FED010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F5B21A6020 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F58FA9B010 doesn't match image C:\Users\brent\OneDrive\Documents\GitHub\MemeJam\MemeJam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.364100 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.168200 ms  DeleteObjects: 0.016800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Future.ttf
-  artifactKey: Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Future.ttf using Guid(ea91f730724f96645b590c2f2f2c2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728a19117b5d872981659b0e2e71f57f') in 0.018360 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.0 MB.
+System memory in use after: 44.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.624400 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.264900 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf
-  artifactKey: Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodingStuff/UI/Fonts/Kenney Mini Square.ttf using Guid(b223f7b962790764383b9ae95ec1226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aaf9df9dccd93e557f29da1981b397') in 0.019971 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.600800 ms (FindLiveObjects: 0.123600 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.409200 ms  DeleteObjects: 0.019900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

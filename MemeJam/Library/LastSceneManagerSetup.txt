@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CodingStuff/CodingProgressScene.unity
+- path: Assets/MenuStuff/TheLoseScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
