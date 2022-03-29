@@ -13,18 +13,13 @@ public class ItemMoveScript : MonoBehaviour
         yeast,
         sugar,
         bowl,
-        mixture,
-        gSugar,
         oil,
         salt,
         flour,
         mixer,
         dough,
-        oilBowl,
-        wrap,
-        doughTwo,
-        unbakedBread,
-        bakedBread
+        board,
+        timer
     }
     [SerializeField]
     public itemType type;
