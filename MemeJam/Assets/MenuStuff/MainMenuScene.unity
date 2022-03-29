@@ -413,7 +413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &759739186
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1785,10 +1785,13 @@ MonoBehaviour:
 
     Sprint | Left Shift
 
-    Knead dough | Space
+    Knead dough | Space while looking
+    at board
 
-    Mix
-    dough | Space while holding mixer
+    Mix dough | Space while on bowl and holding mixer
+
+    Open Cabinet
+    | E
 
 '
   m_isRightToLeft: 0
